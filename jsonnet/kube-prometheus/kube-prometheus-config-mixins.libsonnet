@@ -1,7 +1,7 @@
 local l = import 'lib/lib.libsonnet';
 
 // withImageRepository is a mixin that replaces all images prefixes by repository. eg.
-// quay.io/coreos/addon-resizer -> $repository/addon-resizer
+// quay.azk8s.cn/coreos/addon-resizer -> $repository/addon-resizer
 // grafana/grafana -> grafana $repository/grafana
 local withImageRepository(repository) = {
   local oldRepos = super._config.imageRepos,

@@ -11,7 +11,7 @@
                         name:: 'kube-state-metrics',
                         namespace:: 'monitoring',
                         version:: '1.9.5',  //$._config.versions.kubeStateMetrics,
-                        image:: 'quay.io/coreos/kube-state-metrics:v' + ksm.version,
+                        image:: 'quay.azk8s.cn/coreos/kube-state-metrics:v' + ksm.version,
                         service+: {
                           spec+: {
                             ports: [

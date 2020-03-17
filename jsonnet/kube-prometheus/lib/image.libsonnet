@@ -1,5 +1,5 @@
 // imageName extracts the image name from a fully qualified image string. eg.
-// quay.io/coreos/addon-resizer -> addon-resizer
+// quay.azk8s.cn/coreos/addon-resizer -> addon-resizer
 // grafana/grafana -> grafana
 local imageName(image) =
   local parts = std.split(image, '/');

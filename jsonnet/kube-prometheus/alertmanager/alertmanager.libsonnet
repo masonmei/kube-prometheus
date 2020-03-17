@@ -9,7 +9,7 @@ local k = import 'ksonnet/ksonnet.beta.4/k.libsonnet';
     },
 
     imageRepos+:: {
-      alertmanager: 'quay.io/prometheus/alertmanager',
+      alertmanager: 'quay.azk8s.cn/prometheus/alertmanager',
     },
 
     alertmanager+:: {
