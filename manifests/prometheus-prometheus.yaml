@@ -32,9 +32,9 @@ spec:
   serviceMonitorNamespaceSelector: {}
   serviceMonitorSelector: {}
   thanos:
-    image: quay.azk8s.cn/thanos/thanos:v0.10.0
+    image: quay.azk8s.cn/thanos/thanos:v0.11.0
     objectStorageConfig:
       key: thanos.yaml
       name: thanos-objectstorage
-    version: v0.10.0
+    version: v0.11.0
   version: v2.15.2
